@@ -10,7 +10,46 @@
 		<div id="content">
 		  <input type="file" id="thefile" accept="audio/*" />
 		  <canvas id="canvas"></canvas>
-		  <div id="stats"></div>
+		  <img src="pics/harmonica8.png" id="pic"/>
+		  <table>
+			<tr>
+				<td id="t1" class="draw" onmousedown="PlaySound('k1')" onmouseup="StopSound()"onmouseleave="StopSound()"></td>
+				<td id="t2" class="blow" onmousedown="PlaySound('k2')" onmouseup="StopSound()"onmouseleave="StopSound()"></td>
+				<td id="t3" class="draw" onmousedown="PlaySound('k3')" onmouseup="StopSound()"onmouseleave="StopSound()"></td>
+				<td id="t4" class="blow" onmousedown="PlaySound('k4')" onmouseup="StopSound()"onmouseleave="StopSound()"></td>
+				<td id="t5" class="draw" onmousedown="PlaySound('k5')" onmouseup="StopSound()"onmouseleave="StopSound()"></td>
+				<td id="t6" class="blow" onmousedown="PlaySound('k6')" onmouseup="StopSound()"onmouseleave="StopSound()"></td>
+				<td id="t7" class="draw" onmousedown="PlaySound('k7')" onmouseup="StopSound()"onmouseleave="StopSound()"></td>
+				<td id="t8" class="blow" onmousedown="PlaySound('k8')" onmouseup="StopSound()"onmouseleave="StopSound()"></td>
+				<td id="t9" class="draw" onmousedown="PlaySound('k9')" onmouseup="StopSound()"onmouseleave="StopSound()"></td>
+				<td id="t10" class="blow" onmousedown="PlaySound('k10')" onmouseup="StopSound()"onmouseleave="StopSound()"></td>
+				<td id="t11" class="draw" onmousedown="PlaySound('k11')" onmouseup="StopSound()"onmouseleave="StopSound()"></td>
+				<td id="t12" class="blow" onmousedown="PlaySound('k12')" onmouseup="StopSound()"onmouseleave="StopSound()"></td>
+				<td id="t13" class="draw" onmousedown="PlaySound('k13')" onmouseup="StopSound()"onmouseleave="StopSound()"></td>
+				<td id="t14" class="blow" onmousedown="PlaySound('k14')" onmouseup="StopSound()"onmouseleave="StopSound()"></td>
+				<td id="t15" class="draw" onmousedown="PlaySound('k15')" onmouseup="StopSound()"onmouseleave="StopSound()"></td>
+				<td id="t16" class="blow" onmousedown="PlaySound('k16')" onmouseup="StopSound()"onmouseleave="StopSound()"></td>
+			</tr>
+		  </table>
+		  <audio id="k1" class="synth" src="Tonove Accordeon/262C.wav"></audio>
+		  <audio id="k2" class="synth" src="Tonove Accordeon/293D.wav"></audio>
+		  <audio id="k3" class="synth" src="Tonove Accordeon/330E.wav"></audio>
+		  <audio id="k4" class="synth" src="Tonove Accordeon/392G.wav"></audio>
+		  <audio id="k5" class="synth" src="Tonove Accordeon/523C.wav"></audio>
+		  <audio id="k6" class="synth" src="Tonove Accordeon/587D.wav"></audio>
+		  <audio id="k7" class="synth" src="Tonove Accordeon/659E.wav"></audio>
+		  <audio id="k8" class="synth" src="Tonove Accordeon/698F.wav"></audio>
+		  <audio id="k9" class="synth" src="Tonove Accordeon/784G.wav"></audio>
+		  <audio id="k10" class="synth" src="Tonove Accordeon/880A.wav"></audio>
+		  <audio id="k11" class="synth" src="Tonove Accordeon/968B.wav"></audio>
+		  <audio id="k12" class="synth" src="Tonove Accordeon/1046C.wav"></audio>
+		  <audio id="k13" class="synth" src="Tonove Accordeon/1191D.wav"></audio>
+		  <audio id="k14" class="synth" src="Tonove Accordeon/1318E.wav"></audio>
+		  <audio id="k15" class="synth" src="Tonove Accordeon/1397F.wav"></audio>
+		  <audio id="k16" class="synth" src="Tonove Accordeon/1568G.wav"></audio>
+		  <div id="saved">
+		  </div>
+		  <div id="stats">NOTES:</div>
 		  <audio id="audio" controls></audio>
 		</div>
 	</body>
